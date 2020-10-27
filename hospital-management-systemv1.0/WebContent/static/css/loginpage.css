@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+    *{
+        margin  :0;
+        padding : 0;
+        box-sizing: content-box;
+    }
+
+    body{
+        background-image : url("https://image.shutterstock.com/z/stock-photo-sisters-smiling-and-lying-in-bed-in-the-hospital-together-family-support-during-illness-concept-1051861454.jpg");
+        background-size : "100% 100%";
+     
+    }
+
+    header{
+        text-align : center;
+        font-size : 1.5rem;
+        padding : 1rem;
+    }.field{
+        display: block;
+        text-align: center;
+        font-size : 0.8em;
+        width : 85%;
+        padding : 0.5rem;
+        margin-left : 3%;
+        margin-bottom : 2%;
+        border-radius : 20px;
+        font-weight : bold;
+        color : rgba(0,0,0,0.3);
+    }
+    .container{
+        color : rgb(179, 156, 156);
+        background-color : white;
+        text-align : center;
+        font-size : 1.5rem;
+        border-radius : 20px;
+        width : 30%;
+        float : left;
+        clear:none;
+        position : relative;
+        margin-left : 5%;
+        padding : 2rem;
+        box-shadow:5px 10px rgb(124, 120, 120);
+    }
+
+    .btn{
+    width : 50%;
+    margin-top : 3%;
+    text-align : center;
+    font-size : 1.2rem;
+    padding : 0.4em;
+    border-radius : 20px;
+    font-weight : bold;
+    color : white;
+    background-color :rgb(124, 120, 120);
+    
+}
+
+    .btn:hover{
+        background-color : white;
+        color : black;
+    }
+
+    #message{
+        font-weight : bold;
+        color : red;
+        font-size : 0.7em;
+        
+    }
+    footer{
+        position : fixed;
+        font-weight : bold;
+        color :white;
+        font-size : 1rem;
+        bottom : 0;
+        display : block;
+        width : 100%;
+        text-align : center;
+        background-color : black;
+    }
+   
